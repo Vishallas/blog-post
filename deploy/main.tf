@@ -25,3 +25,15 @@ resource "aws_s3_bucket_public_access_block" "example" {
   ignore_public_acls      = false
   restrict_public_buckets = false
 }
+
+resource "aws_instance" "name" {
+  instance_type = "t2.medium"
+  security_groups = ["sg-06134a4c3d63c0d0b"]
+  key_name = "blogpost"
+  ami = "ami-08a0d1e16fc3f61ea"
+  tags = {
+    Name = "BlogPostBackendServer"
+  }
+  user_data = "${file("./user_data.sh")}"
+  user_data_replace_on_change = true
+}
