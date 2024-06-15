@@ -1,0 +1,109 @@
+{
+    "Posts": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "postid": {
+                        "S": "1"
+                    },
+                    "username": {
+                        "S": "alice"
+                    },
+                    "content": {
+                        "S": "This is the first blog post content."
+                    },
+                    "title": {
+                        "S": "First Blog Post"
+                    },
+                    "imageurl": {
+                        "S": "http://example.com/image1.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "postid": {
+                        "S": "2"
+                    },
+                    "username": {
+                        "S": "bob"
+                    },
+                    "content": {
+                        "S": "This is the second blog post content."
+                    },
+                    "title": {
+                        "S": "Second Blog Post"
+                    },
+                    "imageurl": {
+                        "S": "http://example.com/image2.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "postid": {
+                        "S": "3"
+                    },
+                    "username": {
+                        "S": "carol"
+                    },
+                    "content": {
+                        "S": "This is the third blog post content."
+                    },
+                    "title": {
+                        "S": "Third Blog Post"
+                    },
+                    "imageurl": {
+                        "S": "http://example.com/image3.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "postid": {
+                        "S": "4"
+                    },
+                    "username": {
+                        "S": "dave"
+                    },
+                    "content": {
+                        "S": "This is the fourth blog post content."
+                    },
+                    "title": {
+                        "S": "Fourth Blog Post"
+                    },
+                    "imageurl": {
+                        "S": "http://example.com/image4.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "postid": {
+                        "S": "5"
+                    },
+                    "username": {
+                        "S": "eve"
+                    },
+                    "content": {
+                        "S": "This is the fifth blog post content."
+                    },
+                    "title": {
+                        "S": "Fifth Blog Post"
+                    },
+                    "imageurl": {
+                        "S": "http://example.com/image5.jpg"
+                    }
+                }
+            }
+        }
+    ]
+}
